@@ -29,8 +29,10 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
   end
 end
 
-
-
+#first_word_capitalized_and_ends_with_punctuation? written as a ternary operator
+def first_word_capitalized_and_ends_with_punctuation?(text)
+  
+end
 
 
 def valid_phone_number?(phone)
