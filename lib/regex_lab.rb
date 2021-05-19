@@ -1,8 +1,8 @@
 def starts_with_a_vowel?(word)
   if word.match?(/\b[aeiouAEIOU]/)
-    return true
+    true
   else
-    return false
+    false
   end
 end
 
@@ -45,5 +45,9 @@ end
 
 
 def valid_phone_number?(phone)
-
+  if phone.match(//)
+    true
+  else
+    false
+  end
 end
