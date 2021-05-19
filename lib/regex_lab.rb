@@ -45,7 +45,7 @@ end
 
 
 def valid_phone_number?(phone)
-  if phone.match(//)
+  if phone.join(" ")match(//)
     true
   else
     false
