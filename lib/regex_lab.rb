@@ -31,7 +31,7 @@ end
 
 #first_word_capitalized_and_ends_with_punctuation? written as a ternary operator
 def first_word_capitalized_and_ends_with_punctuation?(text)
-  
+  text.match(/\A[A-Z]|[.!]\z/) ? true : false
 end
 
 
